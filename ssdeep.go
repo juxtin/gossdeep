@@ -1,7 +1,7 @@
 package ssdeep
 
 /*
-#cgo linux LDFLAGS:-L/usr/local/lib/ -lfuzzy -ldl -I/usr/local/include/
+#cgo !windows LDFLAGS:-L/usr/local/lib/ -lfuzzy -ldl -I/usr/local/include/
 #include <stdlib.h>
 #include <fuzzy.h>
 */
